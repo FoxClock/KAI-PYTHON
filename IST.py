@@ -1,3 +1,15 @@
+
+############################
+## This is for global variables -Foxwell
+############################
+
+
+############################
+## This is where all our functions go -Foxwell
+############################
+
+
+# This is your password section -Foxwell
 print('Enter correct username and password to continue')
 count=0
 while count < 3:
@@ -10,6 +22,8 @@ while count < 3:
     else:
         print('Access denied. Try again.')
         count += 1
+
+# This is your menu part -Foxwell
 ans=True
 while ans:
     print ("""
@@ -30,3 +44,7 @@ while ans:
     elif ans !="":
       print("\n Not Valid Choice Try again")
     
+##############################
+## Below here you should create menu -Foxwell
+##############################
+
